@@ -4,6 +4,8 @@
   "package": "me.logwet.spawnersight.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "common.BaseSpawnerAccessor",
+    "common.LevelMixin"
   ],
   "client": [
     "client.DebugScreenOverlayMixin"

@@ -9,7 +9,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class SpawnerSight implements ModInitializer {
-    public static final String MODID = "modid";
+    public static final String MODID = "spawnersight";
     public static final String VERSION =
             FabricLoader.getInstance()
                     .getModContainer(MODID)
